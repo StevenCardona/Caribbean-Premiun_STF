@@ -1,7 +1,7 @@
 import { isDesktop } from 'react-device-detect';
-import { IMG_ROUTES } from '../../../../main/constants';
-import { COPYS_ES } from '../../../../main/resources';
-import { CustomButton } from '../../buttons/custom-button';
+import { IMG_ROUTES } from '../../../main/constants';
+import { COPYS_ES } from '../../../main/resources';
+import { CustomButton } from '../../components/buttons/custom-button';
 import './styles.css';
 
 export const PrintEtnicoSection = () => {
@@ -31,7 +31,7 @@ export const PrintEtnicoSection = () => {
                 />
             </div>
 
-            <div className='section__box p-lg-4 text-center text-lg-start d-lg-flex flex-lg-column algin-items-center justify-content-center mt-5 mt-lg-0'>
+            <div className='section__box p-lg-4 text-center text-lg-start d-lg-flex flex-lg-column algin-items-center justify-content-center my-5 mt-lg-0'>
                 <h2 className='section__title '>
                     {COPYS_ES.print_etnico_section.title}
                 </h2>
