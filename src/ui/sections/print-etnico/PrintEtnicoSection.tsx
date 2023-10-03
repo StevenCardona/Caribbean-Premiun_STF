@@ -36,7 +36,7 @@ export const PrintEtnicoSection = () => {
                     {COPYS_ES.print_etnico_section.title}
                 </h2>
 
-                <h4 className='section__subtitle'>
+                <h4 className='section__subtitle mb-lg-5'>
                     {COPYS_ES.print_etnico_section.subtitle}
                 </h4>
 

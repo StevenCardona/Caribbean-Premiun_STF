@@ -1,0 +1,110 @@
+.collection4__main {
+    width: 100%;
+    height: 596px;
+}
+.collection4__img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.collection4__title {
+    font-size: 35px;
+    font-weight: medium;
+    color: #919191;
+}
+.collection4__title b {
+    display: block;
+    width: 100%;
+}
+.collection4__text {
+    font-size: 16px;
+    font-weight: 300;
+    color: #919191;
+}
+
+@media screen and (min-width: 992px) {
+    .collection4__main {
+        width: 445px;
+        height: 325px;
+    }
+    .collection4__img {
+        width: 660px;
+    }
+
+    .collection4__title {
+        font-size: 31px;
+    }
+    .collection4__title b {
+        display: inline;
+    }
+    .collection4__text {
+        width: 453px;
+        font-size: 16px;
+    }
+
+    .collection4 .info__line {
+        position: relative;
+        margin: 0 auto;
+        width: 110px;
+        background-color: #9a9a9a;
+        height: 2px;
+        opacity: 90%;
+        border: none;
+        border-radius: 15px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .collection4__main {
+        width: 465px;
+        height: 345px;
+    }
+    .collection4__img {
+        width: 760px;
+    }
+
+    .collection4__title {
+        font-size: 31px;
+    }
+    .collection4__title b {
+        display: inline;
+    }
+    .collection4__text {
+        width: 463px;
+        font-size: 18px;
+    }
+
+    .collection4 .info__line {
+        position: relative;
+        margin: 0 auto;
+        width: 110px;
+        background-color: #9a9a9a;
+        height: 2px;
+        opacity: 90%;
+        border: none;
+        border-radius: 15px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .collection4__main {
+        width: 653px;
+        height: 606px;
+    }
+    .collection4__img {
+        width: 1082px;
+    }
+
+    .collection4__title {
+        font-size: 51px;
+    }
+
+    .collection4__text {
+        font-size: 23px;
+        width: 653px;
+    }
+
+    .collection4 .info__line {
+        width: 175px;
+    }
+}

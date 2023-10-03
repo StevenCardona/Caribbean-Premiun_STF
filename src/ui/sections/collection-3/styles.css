@@ -1,0 +1,82 @@
+.collection3__banner {
+    height: 80vh;
+    background: url('/public/assets/images/MOBILE/I10.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.collection3__img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.collection3__title {
+    font-size: 35px;
+    font-weight: medium;
+    color: #fff;
+}
+
+.collection3__subtitle {
+    font-size: 27px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 22px;
+    margin-top: -10px;
+}
+
+.collection3__text {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 47px;
+}
+
+@media screen and (min-width: 992px) {
+    .collection3__banner {
+        height: 100vh;
+    }
+    .collection3__banner {
+        width: 869px;
+    }
+    .collection3__img {
+        width: 561px;
+    }
+
+    .collection3__title {
+        font-size: 75px;
+    }
+
+    .collection3__subtitle {
+        font-size: 75px;
+        margin-top: -40px;
+        margin-bottom: 30px;
+    }
+
+    .collection3__text {
+        font-size: 18px;
+        margin-bottom: 45px;
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .collection3__banner {
+        width: 1069px;
+    }
+    .collection3__img {
+        width: 761px;
+    }
+    .collection3__title {
+        font-size: 101px;
+    }
+
+    .collection3__subtitle {
+        font-size: 101px;
+        margin-bottom: 57px;
+        margin-top: -50px;
+    }
+
+    .collection3__text {
+        font-size: 21px;
+        margin-bottom: 143px;
+    }
+}
