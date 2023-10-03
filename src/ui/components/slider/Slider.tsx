@@ -9,6 +9,7 @@ export const Slider = ({ slidesList, classNames }: SliderProps) => {
             <div className='carousel-indicators'>
                 {slidesList.map((slide, index) => (
                     <button
+                        key={index}
                         type='button'
                         data-bs-target='#carouselExampleCaptions'
                         data-bs-slide-to={index}
@@ -23,13 +24,10 @@ export const Slider = ({ slidesList, classNames }: SliderProps) => {
                 {slidesList.map((slide, index) => (
                     <div className={`carousel-item ${index == 0 ? 'active' : ''}`}>
                         <img
+                            key={index + '-' + slide}
                             className='d-block w-100'
                             src={slide}
                             alt={`Slide ${index}`}
-                            style={{
-                                width: '375px',
-                                height: '509px',
-                            }}
                         />
                     </div>
                 ))}

@@ -1,0 +1,11 @@
+.collection2 {
+    height: 100vh;
+    width: 100vw;
+}
+
+@media screen and (min-width: 992px) {
+    .collection2 {
+        background: url('/public/assets/images/DESKTOP/I10.jpg') no-repeat top;
+        background-size: cover;
+    }
+}

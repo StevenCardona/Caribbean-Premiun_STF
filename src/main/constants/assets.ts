@@ -18,4 +18,8 @@ export const IMG_ROUTES = {
         img4: '/assets/images/DESKTOP/I9.jpg',
     },
     collectionMain: '/assets/images/DESKTOP/I5.jpg',
+    collection2_MB: {
+        img1: '/assets/images/MOBILE/I9.jpg',
+        img2: '/assets/images/MOBILE/I7.jpg',
+    },
 };
