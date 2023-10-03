@@ -17,4 +17,5 @@ export const IMG_ROUTES = {
         img3: '/assets/images/DESKTOP/I8.jpg',
         img4: '/assets/images/DESKTOP/I9.jpg',
     },
+    collectionMain: '/assets/images/DESKTOP/I5.jpg',
 };

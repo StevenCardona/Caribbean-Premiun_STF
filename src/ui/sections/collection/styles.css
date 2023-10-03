@@ -1,0 +1,37 @@
+@media screen and (min-width: 992px) {
+    .collection__imgMain {
+        width: 553px;
+        height: 100vh;
+    }
+    .collection__item {
+        width: 205px;
+        height: 285px;
+    }
+    .collection__button {
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .collection__imgMain {
+        width: 683px;
+    }
+
+    .collection__item {
+        height: 325px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .collection__imgMain {
+        width: 793px;
+    }
+
+    .collection__item {
+        width: 405px;
+        height: 475px;
+    }
+}

@@ -6,7 +6,7 @@ import './styles.css';
 
 export const PrintEtnicoSection = () => {
     return (
-        <div className='section d-lg-flex gap-5'>
+        <div className='section d-lg-flex gap-5 justify-content-center'>
             <div className='d-flex flex-column-reverse flex-column-reverse section__imgs flex-lg-row align-items-lg-center'>
                 <div className='section__thumbnail d-flex justify-content-center align-items-center mt-4 mt-lg-0'>
                     <img
@@ -41,7 +41,7 @@ export const PrintEtnicoSection = () => {
                 </h4>
 
                 <CustomButton
-                    classNames='d-none d-lg-block black mt-lg-5 xl'
+                    classNames='d-none d-lg-block black mt-lg-4 xl'
                     title={COPYS_ES.show_complements}
                 />
             </div>
