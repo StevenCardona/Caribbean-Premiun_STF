@@ -38,7 +38,7 @@ export const Banner = () => {
 
             <div className='additional_text d-lg-none p-4 py-3 text-center'>
                 <hr className='info__line my-3' />
-                <p className='info__text text-center'>
+                <p className='info__text text-center p-5 py-0'>
                     {COPYS_ES.text_presentation}
                 </p>
             </div>

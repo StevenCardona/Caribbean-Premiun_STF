@@ -15,13 +15,13 @@
     }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1550px) {
     .collection__imgMain {
         width: 683px;
     }
 
     .collection__item {
-        height: 325px;
+        height: 355px;
     }
 }
 

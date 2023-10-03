@@ -26,6 +26,7 @@ export const Collection = () => {
             <Slider
                 slidesList={isDesktop ? SLIDES_LIST : SLIDES_LIST_MB}
                 classNames='d-lg-none'
+                name='collection'
             />
 
             <div className='d-lg-flex p-5 py-2 m-5 gap-5 justify-content-center d-none collection__wrapper'>
@@ -38,7 +39,7 @@ export const Collection = () => {
                 </div>
 
                 <div className='d-flex align-items-center justify-content-center'>
-                    <div className='row g-3 p-4 py-0'>
+                    <div className='row  g-4 p-4 py-0'>
                         <div className='col-6 position-relative'>
                             <img
                                 className='d-block w-100 collection__item'
@@ -52,7 +53,7 @@ export const Collection = () => {
                             <div className='text-center collection__button'>
                                 <CustomButton
                                     title={COPYS_ES.buy_now}
-                                    classNames='xl text-center'
+                                    classNames='lg text-center'
                                 />
                             </div>
                         </div>
@@ -70,7 +71,7 @@ export const Collection = () => {
                             <div className='text-center collection__button'>
                                 <CustomButton
                                     title={COPYS_ES.buy_now}
-                                    classNames='xl text-center'
+                                    classNames='lg text-center'
                                 />
                             </div>
                         </div>
@@ -89,7 +90,7 @@ export const Collection = () => {
                             <div className='text-center collection__button'>
                                 <CustomButton
                                     title={COPYS_ES.buy_now}
-                                    classNames='xl text-center'
+                                    classNames='lg text-center'
                                 />
                             </div>
                         </div>
@@ -112,7 +113,7 @@ export const Collection = () => {
                             >
                                 <CustomButton
                                     title={COPYS_ES.buy_now}
-                                    classNames='xl text-center'
+                                    classNames='lg text-center'
                                 />
                             </div>
                         </div>

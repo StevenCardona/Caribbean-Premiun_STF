@@ -1,16 +1,18 @@
 interface SliderProps {
     slidesList: string[];
     classNames?: string;
+    name: string;
 }
 
-export const Slider = ({ slidesList, classNames }: SliderProps) => {
+export const Slider = ({ slidesList, classNames, name }: SliderProps) => {
     return (
-        <div id='carouselExampleCaptions' className={`carousel slide ${classNames}`}>
+        <div id={name} className={`carousel slide ${classNames}`}>
             <div className='carousel-indicators'>
                 {slidesList.map((slide, index) => (
                     <button
+                        key={name + '-' + index}
                         type='button'
-                        data-bs-target='#carouselExampleCaptions'
+                        data-bs-target={'#' + name}
                         data-bs-slide-to={index}
                         className='active rounded-circle'
                         aria-current='true'
@@ -23,13 +25,10 @@ export const Slider = ({ slidesList, classNames }: SliderProps) => {
                 {slidesList.map((slide, index) => (
                     <div className={`carousel-item ${index == 0 ? 'active' : ''}`}>
                         <img
+                            key={name + '-' + index + '-' + slide}
                             className='d-block w-100'
                             src={slide}
                             alt={`Slide ${index}`}
-                            style={{
-                                width: '375px',
-                                height: '509px',
-                            }}
                         />
                     </div>
                 ))}
@@ -37,7 +36,7 @@ export const Slider = ({ slidesList, classNames }: SliderProps) => {
             <button
                 className='carousel-control-prev'
                 type='button'
-                data-bs-target='#carouselExampleCaptions'
+                data-bs-target={'#' + name}
                 data-bs-slide='prev'
             >
                 <span
@@ -49,7 +48,7 @@ export const Slider = ({ slidesList, classNames }: SliderProps) => {
             <button
                 className='carousel-control-next'
                 type='button'
-                data-bs-target='#carouselExampleCaptions'
+                data-bs-target={'#' + name}
                 data-bs-slide='next'
             >
                 <span

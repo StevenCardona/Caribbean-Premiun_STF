@@ -35,6 +35,22 @@
 @media screen and (min-width: 1400px) {
     .button {
         font-size: 18px;
+    }
+
+    .button.lg {
+        width: 261px;
+        height: 51px;
+    }
+
+    .button.xl {
+        width: 276px;
+        height: 54px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .button {
+        font-size: 18px;
         padding: 13px 47px 15px 38px;
     }
 
