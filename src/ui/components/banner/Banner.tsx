@@ -13,7 +13,7 @@ export const Banner = () => {
                     alt='logo premium collection Studio F'
                 />
 
-                <div className='w-100 h-100 d-flex flex-column justify-content-end align-items-center justify-content-md-center align-items-md-start banner__wrapper'>
+                <div className='w-100 h-100 d-flex flex-column justify-content-end align-items-center justify-content-lg-center align-items-lg-start banner__wrapper'>
                     <img
                         className='banner__title'
                         src={IMG_ROUTES.titleBanner}
@@ -27,13 +27,16 @@ export const Banner = () => {
                                 {COPYS_ES.text_presentation}
                             </p>
 
-                            <CustomButton title={COPYS_ES.show_collection} />
+                            <CustomButton
+                                title={COPYS_ES.show_collection}
+                                classNames='lg'
+                            />
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className='additional_text d-md-none p-4 py-3 text-center'>
+            <div className='additional_text d-lg-none p-4 py-3 text-center'>
                 <hr className='info__line my-3' />
                 <p className='info__text text-center'>
                     {COPYS_ES.text_presentation}
