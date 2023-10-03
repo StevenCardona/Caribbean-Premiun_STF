@@ -1,6 +1,6 @@
 import { IMG_ROUTES } from '../../../main/constants';
 import { COPYS_ES } from '../../../main/resources';
-import { CustomButton } from '../buttons/custom-button';
+import { CustomButton } from '../../components/buttons/custom-button';
 import './banner.css';
 
 export const Banner = () => {

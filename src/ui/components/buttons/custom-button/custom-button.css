@@ -16,10 +16,25 @@
     color: #9a9a9a;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
+    .button {
+        border-radius: 12px;
+    }
+
+    .button.lg {
+        width: 210px;
+        height: 38px;
+    }
+
+    .button.xl {
+        width: 226px;
+        height: 42px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
     .button {
         font-size: 18px;
-        border-radius: 12px;
         padding: 13px 47px 15px 38px;
     }
 

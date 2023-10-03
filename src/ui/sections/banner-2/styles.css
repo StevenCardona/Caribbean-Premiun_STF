@@ -1,0 +1,41 @@
+.banner2 {
+    height: 100vh;
+    width: 100vw;
+    background: url('/public/assets/images/MOBILE/I4.jpg') no-repeat top;
+    background-size: cover;
+}
+
+@media screen and (min-width: 992px) {
+    .banner2 {
+        height: 100vh;
+        position: relative;
+        background-image: url('/public/assets/images/DESKTOP/I4.jpg');
+    }
+
+    .banner2 .logo_premium {
+        display: block;
+        position: absolute;
+        top: 40px;
+        left: 250px;
+        width: 170px;
+        height: 254px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .banner2 .logo_premium {
+        top: 40px;
+        left: 282px;
+        width: 230px;
+        height: 344px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .banner2 .logo_premium {
+        top: 40px;
+        left: 322px;
+        width: 250px;
+        height: 374px;
+    }
+}
