@@ -2,7 +2,7 @@ import { isDesktop } from 'react-device-detect';
 import { IMG_ROUTES } from '../../../main/constants';
 import { COPYS_ES } from '../../../main/resources';
 import { CustomButton } from '../../components/buttons/custom-button';
-import './styles.css';
+import './styles/styles.css';
 
 export const PrintEtnicoSection = () => {
     return (

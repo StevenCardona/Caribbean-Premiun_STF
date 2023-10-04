@@ -1,1 +1,1 @@
-export * from './copys';
+export * from './resource-copys';

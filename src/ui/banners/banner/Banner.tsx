@@ -1,13 +1,14 @@
 import { IMG_ROUTES } from '../../../main/constants';
 import { COPYS_ES } from '../../../main/resources';
 import { CustomButton } from '../../components/buttons/custom-button';
-import './banner.css';
+import './styles/banner.css';
 
 export const Banner = () => {
     return (
         <>
             <div className='banner'>
                 <img
+                    loading='lazy'
                     className='logo_premium'
                     src={IMG_ROUTES.logoBanner}
                     alt='logo premium collection Studio F'
@@ -15,6 +16,7 @@ export const Banner = () => {
 
                 <div className='w-100 h-100 d-flex flex-column justify-content-end align-items-center justify-content-lg-center align-items-lg-start banner__wrapper'>
                     <img
+                        loading='lazy'
                         className='banner__title'
                         src={IMG_ROUTES.titleBanner}
                         alt='titulo del banner'
