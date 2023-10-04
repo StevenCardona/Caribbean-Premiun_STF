@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Caribbean-Premiun_STF/static/css/main.8becb4f7.css",
-    "main.js": "/Caribbean-Premiun_STF/static/js/main.db987276.js",
+    "main.js": "/Caribbean-Premiun_STF/static/js/main.29f260e9.js",
     "static/js/787.9ca42954.chunk.js": "/Caribbean-Premiun_STF/static/js/787.9ca42954.chunk.js",
     "static/media/I1.jpg": "/Caribbean-Premiun_STF/static/media/I1.3618fd0ec19c261238b1.jpg",
     "static/media/I4.jpg": "/Caribbean-Premiun_STF/static/media/I4.f521be9c1bfdaff24d64.jpg",
@@ -9,11 +9,11 @@
     "static/media/I11.jpg": "/Caribbean-Premiun_STF/static/media/I11.015dcf78d901b7ca4eaf.jpg",
     "index.html": "/Caribbean-Premiun_STF/index.html",
     "main.8becb4f7.css.map": "/Caribbean-Premiun_STF/static/css/main.8becb4f7.css.map",
-    "main.db987276.js.map": "/Caribbean-Premiun_STF/static/js/main.db987276.js.map",
+    "main.29f260e9.js.map": "/Caribbean-Premiun_STF/static/js/main.29f260e9.js.map",
     "787.9ca42954.chunk.js.map": "/Caribbean-Premiun_STF/static/js/787.9ca42954.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8becb4f7.css",
-    "static/js/main.db987276.js"
+    "static/js/main.29f260e9.js"
   ]
 }
