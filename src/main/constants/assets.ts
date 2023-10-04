@@ -14,9 +14,9 @@ export const IMG_ROUTES = {
     },
 
     collection: {
-        img1: '/Caribbean-Premiun_STF/assets/images/DESKTOP/I6.jpg',
-        img2: '/Caribbean-Premiun_STF/assets/images/DESKTOP/I7.jpg',
-        img3: '/Caribbean-Premiun_STF/assets/images/DESKTOP/I8.jpg',
+        img1: '/Caribbean-Premiun_STF/assets/images/DESKTOP/i6.jpg',
+        img2: '/Caribbean-Premiun_STF/assets/images/DESKTOP/i7.jpg',
+        img3: '/Caribbean-Premiun_STF/assets/images/DESKTOP/i8.jpg',
         img4: '/Caribbean-Premiun_STF/assets/images/DESKTOP/I9.jpg',
     },
 
