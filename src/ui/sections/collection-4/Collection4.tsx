@@ -5,9 +5,9 @@ import { CustomButton } from '../../components/buttons/custom-button';
 
 import './styles.css';
 
-export default function Collection4() {
+export function Collection4() {
     return (
-        <div className='collection4 mt-4 d-lg-flex justify-content-lg-around align-items-lg-center'>
+        <div className='collection4 mt-lg-4 mt-2 d-lg-flex justify-content-lg-around align-items-lg-center'>
             <div className='d-lg-flex flex-column justify-content-lg-center align-items-lg-center p-lg-4'>
                 <img
                     className='collection4__main '

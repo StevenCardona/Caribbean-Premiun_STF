@@ -6,6 +6,7 @@
     .collection__item {
         width: 205px;
         height: 285px;
+        object-position: top;
     }
     .collection__button {
         position: absolute;

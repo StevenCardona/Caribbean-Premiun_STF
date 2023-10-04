@@ -10,7 +10,7 @@
 .collection4__title {
     font-size: 35px;
     font-weight: medium;
-    color: #919191;
+    color: var(--gray);
 }
 .collection4__title b {
     display: block;
@@ -19,7 +19,7 @@
 .collection4__text {
     font-size: 16px;
     font-weight: 300;
-    color: #919191;
+    color: var(--gray);
 }
 
 @media screen and (min-width: 992px) {
@@ -46,7 +46,7 @@
         position: relative;
         margin: 0 auto;
         width: 110px;
-        background-color: #9a9a9a;
+        background-color: var(--gray);
         height: 2px;
         opacity: 90%;
         border: none;
@@ -78,7 +78,7 @@
         position: relative;
         margin: 0 auto;
         width: 110px;
-        background-color: #9a9a9a;
+        background-color: var(--gray);
         height: 2px;
         opacity: 90%;
         border: none;

@@ -1,7 +1,7 @@
 .section__title {
     font-size: 69px;
     font-weight: medium;
-    color: #9a9a9a;
+    color: var(--gray);
     text-transform: uppercase;
     line-height: 65px;
 }
@@ -9,7 +9,7 @@
 .section__subtitle {
     font-size: 27px;
     font-weight: 300;
-    color: #9a9a9a;
+    color: var(--gray);
 }
 
 .section__above {

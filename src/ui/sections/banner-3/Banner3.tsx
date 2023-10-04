@@ -9,11 +9,11 @@ const SLIDES_LIST_MB = [
 
 export const Banner3 = () => {
     return (
-        <div className='banner3 d-flex justify-content-center align-items-center mb-5'>
-            <div className='banner3__wraper'>
+        <div className='banner3 pb-4 pb-lg-0 d-flex justify-content-center align-items-center '>
+            <div className='banner3__wraper '>
                 <Slider
                     slidesList={SLIDES_LIST_MB}
-                    classNames='d-lg-none'
+                    classNames='d-lg-none '
                     name={'banner3'}
                 />
             </div>
