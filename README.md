@@ -2,20 +2,19 @@
 
 # Prueba CARIBBEAN PREMIUM SIGNATURE - STF
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link del Demo [Ir al enlace]().
 
-## Available Scripts
+## Construcción del Proyecto
 
-### `npm run eject`
+-   Inicialmente se comprimieron las imagenes para optimizar los tiempos de carga de la página,
+-   Se opto por crear un archivo con las rutas de la imagenes y otro con los textos de la aplicación
+-   Se crearon los componentes que mas se iban a usar
+-   Las secciones se separaron en carpetas para modularizarlas y son llamadas en el momento que se requieran
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+La finalidad de esto es poder tener una configuración flexible y que no debamos ir sección por sección modificando una configuración que probablemente se use durante toda la página.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Links de interes
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Mi perfil de [Linkedin](https://www.linkedin.com/in/stevencardona/).
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Otro proyecto en el cual colabore [Ir al Proyecto](https://stevencar2004.github.io/la_cuisine/)

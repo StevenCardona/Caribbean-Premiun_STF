@@ -5,9 +5,9 @@ import { CustomButton } from '../../components/buttons/custom-button';
 
 import './styles.css';
 
-export default function Collection3() {
+export function Collection3() {
     return (
-        <div className='collection3 d-lg-flex gap-4 pt-4 p-lg-0'>
+        <div className='collection3 d-lg-flex gap-4 mt-5 pt-5 p-lg-0'>
             <div className='collection3__banner d-flex justify-content-center align-items-center flex-column'>
                 <h2 className='collection3__title'>
                     {COPYS_ES.collection_section.title}

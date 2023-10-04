@@ -1,1 +1,1 @@
-export { default as Collection2 } from './Collection4';
+export * from './Collection4';

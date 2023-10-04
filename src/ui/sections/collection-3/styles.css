@@ -12,13 +12,13 @@
 .collection3__title {
     font-size: 35px;
     font-weight: medium;
-    color: #fff;
+    color: var(--white);
 }
 
 .collection3__subtitle {
     font-size: 27px;
     font-weight: 300;
-    color: #fff;
+    color: var(--white);
     margin-bottom: 22px;
     margin-top: -10px;
 }
@@ -26,12 +26,13 @@
 .collection3__text {
     font-size: 16px;
     font-weight: 300;
-    color: #fff;
+    color: var(--white);
     margin-bottom: 47px;
 }
 
 @media screen and (min-width: 992px) {
     .collection3__banner {
+        background: url('/public/assets/images/DESKTOP/I11.jpg') no-repeat right;
         height: 100vh;
     }
     .collection3__banner {

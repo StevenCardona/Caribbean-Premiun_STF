@@ -1,3 +1,16 @@
+:root {
+    --text-medium: 500;
+    --text-regular: 400;
+    --text-light: 300;
+
+    --white: #ffffff;
+    --gray: #9a9a9a;
+}
+
 * {
     font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
 }
