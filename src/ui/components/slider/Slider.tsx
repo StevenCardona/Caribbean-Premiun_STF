@@ -1,8 +1,4 @@
-interface SliderProps {
-    slidesList: string[];
-    classNames?: string;
-    name: string;
-}
+import { SliderProps } from '../../../domain/shared/types';
 
 export const Slider = ({ slidesList, classNames, name }: SliderProps) => {
     return (
@@ -25,6 +21,7 @@ export const Slider = ({ slidesList, classNames, name }: SliderProps) => {
                 {slidesList.map((slide, index) => (
                     <div className={`carousel-item ${index == 0 ? 'active' : ''}`}>
                         <img
+                            loading='lazy'
                             key={name + '-' + index + '-' + slide}
                             className='d-block w-100'
                             src={slide}

@@ -1,4 +1,4 @@
-import './custom-button.css';
+import './styles/custom-button.css';
 
 interface CustomButtonProps {
     title: string;

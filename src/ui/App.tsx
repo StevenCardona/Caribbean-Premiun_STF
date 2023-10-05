@@ -1,6 +1,6 @@
-import { Banner } from './sections/banner';
-import { Banner2 } from './sections/banner-2';
-import { Banner3 } from './sections/banner-3';
+import { Banner } from './banners/banner';
+import { Banner2 } from './banners/banner-2';
+import { Banner3 } from './banners/banner-3';
 import { Collection } from './sections/collection';
 import { Collection3 } from './sections/collection-3';
 import { Collection4 } from './sections/collection-4';

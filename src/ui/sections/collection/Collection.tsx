@@ -1,30 +1,21 @@
-import { isDesktop, isMobile } from 'react-device-detect';
+import { isDesktop } from 'react-device-detect';
 import { IMG_ROUTES } from '../../../main/constants';
-import { Slider } from '../../components/slider';
-import { CustomButton } from '../../components/buttons/custom-button';
 import { COPYS_ES } from '../../../main/resources';
+import { COLLECTION1_SLIDES } from '../../../main/slides';
+import { CustomButton } from '../../components/buttons/custom-button';
+import { Slider } from '../../components/slider';
 
-import './styles.css';
-
-const SLIDES_LIST = [
-    IMG_ROUTES.collection.img1,
-    IMG_ROUTES.collection.img2,
-    IMG_ROUTES.collection.img3,
-    IMG_ROUTES.collection.img4,
-];
-
-const SLIDES_LIST_MB = [
-    IMG_ROUTES.collection_MB.img1,
-    IMG_ROUTES.collection_MB.img2,
-    IMG_ROUTES.collection_MB.img3,
-    IMG_ROUTES.collection_MB.img4,
-];
+import './styles/styles.css';
 
 export const Collection = () => {
     return (
         <div className='my-4 collection'>
             <Slider
-                slidesList={isDesktop ? SLIDES_LIST : SLIDES_LIST_MB}
+                slidesList={
+                    isDesktop
+                        ? COLLECTION1_SLIDES.desktopk
+                        : COLLECTION1_SLIDES.mobile
+                }
                 classNames='d-lg-none'
                 name='collection'
             />

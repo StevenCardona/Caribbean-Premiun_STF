@@ -1,1 +1,1 @@
-export * from './assets';
+export * from './img-routes';
