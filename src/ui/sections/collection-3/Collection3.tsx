@@ -7,7 +7,7 @@ import './styles/styles.css';
 
 export function Collection3() {
     return (
-        <div className='collection3 d-lg-flex gap-4 mt-5 pt-5 p-lg-0'>
+        <div className='collection3 d-lg-flex gap-4 mt-md-4 p-lg-0'>
             <div className='collection3__banner d-flex justify-content-center align-items-center flex-column'>
                 <h2 className='collection3__title'>
                     {COPYS_ES.collection_section.title}
